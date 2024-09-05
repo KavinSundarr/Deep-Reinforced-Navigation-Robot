@@ -1,5 +1,4 @@
-# Writing the refined README content into a new file.
-refined_readme_content = """
+
 # DRL_Navigation_Robot_ROS2_Foxy
 
 **Abstract**  
@@ -8,7 +7,7 @@ This project demonstrates a mobile robot, equipped with a LIDAR sensor, trained 
 **Key Highlights**  
 - **Training**: Conducted in ROS Gazebo 11 using TD3 with PyTorch.
 - **Testing**: Performed in ROS2 Foxy on Ubuntu 20.04.
-- **Algorithm**: The TD3 architecture includes an actor network for action selection and two critic networks to minimize Q-value overestimation.
+- **Algorithm**: The TD3 architecture includes an actor-network for action selection and two critic networks to minimize Q-value overestimation.
 - **Monitoring**: Training progress visualized in real-time with Tensorboard.
 
 **How to Use**  
