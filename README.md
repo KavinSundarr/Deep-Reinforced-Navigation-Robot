@@ -47,11 +47,3 @@ This project demonstrates a mobile robot, equipped with a LIDAR sensor, trained 
 **Conclusion**  
 This project demonstrates the potential of DRL in robotic navigation, with the TD3 algorithm proving effective in enabling the robot to navigate autonomously in complex environments. With an 82% navigation accuracy, this work lays the groundwork for future advancements in autonomous navigation systems.
 """
-
-# Saving the refined content into a new README.md file
-output_file_path = '/mnt/data/README_refined.md'
-
-with open(output_file_path, 'w') as file:
-    file.write(refined_readme_content)
-
-output_file_path
